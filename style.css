@@ -1,3 +1,7 @@
+
+a {
+  font-family: 'Roboto', sans-serif;    
+}
 .head {
     background-color: white;
 }
@@ -5,6 +9,27 @@
 li {
     display: inline;
     padding: 5px;
+    margin: 5px;
+}
+
+#about {
+    float: left;
+}
+
+#store {
+    float: left;
+}
+
+#ads {
+    float: left;
+}
+
+#business {
+    float: left;
+}
+
+#works {
+    float: left;
 }
  
 #gmail {
@@ -13,6 +38,10 @@ li {
  
 #images {
     float: right;
+}
+
+#apps {
+    float:right;
 }
  
 .body {
@@ -30,6 +59,43 @@ li {
 .searchbox {
     display: block;
     margin:0 auto;
-    width: 500px;
+    width: 580px;
+    height: 20px;
     size: 900px;
+    border-radius: 10px;
+}
+
+.search-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+    padding: 20px;
+    left: 50px;
+}
+
+footer {
+    background-color:#f2f2f2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    flex: 1;
+}
+
+#privacy {
+    float: right;
+    right: 0;
+}
+
+#terms {
+    float: right;
+    right: 0;
+}
+
+#settings {
+    float: right;
+    right:0;
 }
